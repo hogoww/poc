@@ -1,0 +1,1 @@
+int libPocVar = 0;

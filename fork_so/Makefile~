@@ -1,0 +1,4 @@
+all:
+	gcc -shared -g -o libpoc.dylib -fPIC libpoc.c -Wall
+	gcc -o main main.c -g -L. -lpoc -fPIC -Wall
+gcc
