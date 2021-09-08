@@ -14,3 +14,7 @@ void printLibPocVar(){
     printf("IS a shadowing ");
   printf("by the library on the main.\n");
 }
+
+void printLibPocVarValue(){
+  printf("   libPocVar = %d\n", libPocVar);
+}

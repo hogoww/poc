@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NUMBEROFTIME 100000000
 
 int main(){
   setVar();
@@ -14,7 +13,7 @@ int main(){
     printf("is NO shadowing ");
    else
     printf("IS a shadowing ");
-  printf("(by the main on the library)!\n");
+  printf("by the main on the library!\n");
 
   printf("##############################\n");
 
@@ -22,5 +21,12 @@ int main(){
   libPocVar = 1;
   printf("The value of libPocVar is set to %d by main.\n",libPocVar);
   printLibPocVar();
+
+  printf("##############################\n");
+  
+  printf("Final values are: \n");
+  printf("   libPocVar = %d\n", libPocVar);
+  printLibPocVarValue();
+  
   return 0;
 }

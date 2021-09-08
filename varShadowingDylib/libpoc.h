@@ -5,3 +5,4 @@
 int libPocVar;
 void setVar();
 void printLibPocVar();
+void printLibPocVarValue();
