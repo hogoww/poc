@@ -25,7 +25,7 @@ int main(){
   printf("##############################\n");
   
   printf("Final values are: \n");
-  printf("   libPocVar = %d\n", libPocVar);
+  printf("   (main)libPocVar = %d\n", libPocVar);
   printLibPocVarValue();
   
   return 0;

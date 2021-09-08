@@ -16,5 +16,5 @@ void printLibPocVar(){
 }
 
 void printLibPocVarValue(){
-  printf("   libPocVar = %d\n", libPocVar);
+  printf("   (lib)libPocVar = %d\n", libPocVar);
 }
