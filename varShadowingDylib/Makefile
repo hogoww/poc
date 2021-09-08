@@ -1,9 +1,9 @@
 #MacOs version
-all:
-	gcc -g -shared -o libpoc.dylib -fPIC libpoc.c -Wall
-	gcc -g -o main main.c -L. -lpoc -fPIC -Wall
+#all:
+#	gcc -g -shared -o libpoc.dylib -fPIC libpoc.c -Wall
+#	gcc -g -o main main.c -L. -lpoc -fPIC -Wall
 
-	export DYLD_LIBRARY_PATH=. && ./main
+#	export DYLD_LIBRARY_PATH=. && ./main
 
 
 #Unix version
