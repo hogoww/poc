@@ -2,7 +2,7 @@
 
 #define value 42
 
-int libPocVar;
+extern int libPocVar;
 void setVar();
 void printLibPocVar();
 void printLibPocVarValue();

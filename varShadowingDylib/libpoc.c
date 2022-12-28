@@ -1,5 +1,8 @@
 #include "libpoc.h"
 
+
+int libPocVar;
+
 void setVar(){
   printf("Setting the value of libPocVar to %d in lib.\n",value);
   libPocVar = value;
